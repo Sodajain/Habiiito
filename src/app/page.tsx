@@ -1,11 +1,12 @@
 import Hero from "@/components/Hero";
-import Insights from "@/components/Insights";
+import Featured from "@/components/PropertyCard";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Insights />
+      <Featured/>
+    
     </main>
   );
 }
