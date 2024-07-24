@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
 import { FaGlobe } from 'react-icons/fa';
@@ -48,7 +47,7 @@ export default function About() {
         />
       </div>
 
-      <Footer/>
+  
     </main>
   );
 }
