@@ -1,11 +1,25 @@
+import BenefitsPage from "@/components/BenefitsPage";
+import ExploreArea from "@/components/ExploreArea";
+import Featured from "@/components/Featured";
+import HappyPeople from "@/components/HappyPeople";
 import Hero from "@/components/Hero";
-import Insights from "@/components/Insights";
+import HowItWorks from "@/components/HowItWorks";
+import UserAndJourney from "@/components/UsersAndJourney";
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <Insights />
+      
+      <Featured />
+     
+      <UserAndJourney/>
+
+      <BenefitsPage/>
+      <HowItWorks/>
+      <ExploreArea/>
+      <HappyPeople/>
+    
     </main>
   );
 }
